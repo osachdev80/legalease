@@ -12,23 +12,15 @@ Short description or overview of the project.
 
 ## Installation
 
-Clone the repository:
+Clone the repository: git@github.com:osachdev80/legalease.git
+Build using mvn
 
 ## Usage
 
-Instructions on how to use the project. Provide examples or screenshots to demonstrate its functionality.
+Call the following endpoint: http://localhost:8081/checkRegion/<REGION_ID>
+(where regionId is passed in)
 
 ## Features
+If REGION_ID is not 170, an error message will be returned otherwise it should return list of all Firm Rankings
 
-List the key features of the project. Highlight the main functionalities and their benefits.
-
-## Contributing
-
-Explain how others can contribute to the project. Include guidelines for submitting bug reports, feature requests, or pull requests.
-
-## License
-
-State the license under which the project is released. For example:
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 

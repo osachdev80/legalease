@@ -16,6 +16,7 @@ import java.util.List;
 /**
  * DataLoader is a component that loads data from a JSON file into the DataService.
  * It implements CommandLineRunner to run the data loading process during application startup.
+ * TODO - Eventually this should come from a third party endpoint rather then loading the data from a file
  */
 @Component
 public class DataLoader implements CommandLineRunner {
