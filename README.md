@@ -6,9 +6,8 @@ Short description or overview of the project.
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
+- [Notes](#notes)
+
 
 ## Installation
 
@@ -23,4 +22,6 @@ Call the following endpoint: http://localhost:8081/checkRegion/<REGION_ID>
 ## Features
 If REGION_ID is not 170, an error message will be returned otherwise it should return list of all Firm Rankings
 
-
+## Notes
+Currently, the REGION_ID that is received is searched in a JSON file to see if it exists, and it returns the entire data set.
+However for prod I presume the data could be retrieved from an external rest call
